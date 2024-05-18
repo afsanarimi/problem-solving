@@ -1,5 +1,5 @@
 import math
-def Triangle(a,b,c):
+def getAngleOfTriangle(a,b,c):
    cos_C=(a**2+b**2-c**2)/(2*a*b)
    cos_A=(b**2+c**2-a**2)/(2*b*c)
    cos_B=(a**2+c**2-b**2)/(2*a*c)
@@ -13,4 +13,4 @@ def Triangle(a,b,c):
     
    return A_deg, B_deg, C_deg
    
-print(Triangle(2,8,4))
+print(getAngleOfTriangle(8,8,8))
